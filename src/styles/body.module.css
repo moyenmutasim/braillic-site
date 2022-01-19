@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.image_back {
+  background-image: url("../images/endobariatric-endohospital-P5XJp-XMIjM-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 49, 66, 0.54);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  position: relative;
+  left: 750px;
+  top: 330px;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  width: 525px;
+  height: 527px;
+  left: 464px;
+  top: 136px;
+  background-image: url("../images/logo_color.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.sub {
+  position: absolute;
+  width: 793px;
+  height: 128px;
+  left: 646px;
+  top: 535px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  z-index: 1;
+}
