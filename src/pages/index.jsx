@@ -11,7 +11,6 @@ class indexPage extends Component {
       <div className={body_grid_container}>
         <Header />
         <Body />
-        <Body />
       </div>
     );
   }
