@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Header from "../components/header";
-import "../styles/layout.css";
-import { body_grid_container } from "../styles/layout.css";
-import Body from "../components/body";
+import "../styles/layout.module.css";
+import { body_grid_container } from "../styles/layout.module.css";
+import Hero from "../components/Hero";
+import Page_1 from "../components/page1";
 
 class indexPage extends Component {
   state = {};
@@ -10,7 +11,8 @@ class indexPage extends Component {
     return (
       <div className={body_grid_container}>
         <Header />
-        <Body />
+        <Hero />
+        <Page_1 />
       </div>
     );
   }

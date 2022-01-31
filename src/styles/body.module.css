@@ -12,7 +12,7 @@
 .cover {
   width: 100%;
   height: 100%;
-  background-color: rgba(45, 49, 66, 0.54);
+  background-color: rgba(45, 49, 66, 0.8);
   position: relative;
   width: 100%;
   height: 100vh;
@@ -20,20 +20,23 @@
 }
 
 .title {
+  text-align: left;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 200px;
   position: relative;
-  left: 750px;
-  top: 330px;
+  left: 37.5%;
+  top: 35%;
+
   z-index: 1;
 }
+/* Vector */
 
 .logo {
   position: absolute;
   width: 525px;
-  height: 527px;
+  height: 525px;
   left: 464px;
   top: 136px;
   background-image: url("../images/logo_color.png");
@@ -45,14 +48,55 @@
   position: absolute;
   width: 793px;
   height: 128px;
-  left: 646px;
-  top: 535px;
+  left: 38%;
+  top: 55%;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 48px;
   line-height: 56px;
-  text-align: center;
+  text-align: left;
   z-index: 1;
+}
+
+.page1_back {
+  height: 80vh;
+  width: 100%;
+  background-color: #155fcf;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 7.5%;
+  z-index: -1;
+  box-shadow: none;
+}
+
+h2 {
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 56px;
+  text-align: left;
+  z-index: 1;
+}
+
+.image_wave {
+  background-image: url("../images/wave.png");
+  /* z-index: 1; */
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 20%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: none;
+}
+
+StaticImage {
+  height: 100px;
+  width: 100px;
+  top: 100px;
 }
